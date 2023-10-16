@@ -1,0 +1,8 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+I would characterize their audio aura by calculating the average energy, valence and danceability of their top 100 songs from the pasty year.
+I would then determine the 2 most prominent values out of the 3 and map those 2 prominent values to moods.
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener. What better ways of calculating this aura would you propose?
+
+My hypothesis is that a more representative aura would take into account all 3 values and map them to all 3 corresponding moods. I would calculate the result based on likelihood the user is in any of 3 moods.

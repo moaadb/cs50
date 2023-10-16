@@ -1,0 +1,21 @@
+/* 5 unique selectors and properties */
+.title {
+    padding: 10px;
+}
+
+h4 {
+    font-family: "Monaco";
+}
+
+a {
+    color: grey;
+}
+
+input {
+    border: 2px solid green;
+    border-radius: 4px;
+}
+
+#newsletterForm {
+    padding: 10px;
+}

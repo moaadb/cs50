@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <table>
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for stock in index %}
+            <tr>
+                <td>{{ stock.symbol }}</td>
+                <td>{{ stock["SUM(shares)"] }}</td>
+                <td>{{ prices[stock.symbol] }}</td>
+                <td>{{ totals[stock.symbol] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <br>
+    Cash: {{ cash }}
+    <br>
+    TOTAL: {{ balance }}
+
+{% endblock %}

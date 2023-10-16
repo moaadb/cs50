@@ -1,0 +1,9 @@
+do (size = get the pyramid size)
+while (if size is less than 1 || greater than 8)
+
+repeat the following n=size times
+    for n, print spaces
+    for m, print hash, m++, \n
+    ...
+    for n=0, print spaces
+    for m, print hash, then m++, \n
